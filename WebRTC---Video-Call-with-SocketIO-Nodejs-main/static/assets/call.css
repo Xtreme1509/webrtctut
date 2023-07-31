@@ -1,0 +1,427 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(39, 49, 49);
+  
+}
+
+.main_wrapper {
+  width: 100%;
+  margin: auto;
+  border: 0px solid green;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  background-color: #fff;
+  
+}
+
+.dialWrapper {
+  width: 50%;
+  background-color: antiquewhite;
+
+}
+
+.dialNumpadHWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.dialNumber {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* .incomingWrapper {
+  width: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+} */
+
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionButton {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dialActionButton {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#errorMessage {
+  color: red;
+}
+
+/* button {
+  padding: 12px 17px;
+  background-color: #050801;
+  color: #03e9f4;
+  font-weight: initial;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+} */
+
+/* button:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+} */
+
+/* input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-right: 5px;
+} */
+
+
+
+/* new css*/
+
+.usernamebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  /* margin-top: 35%; */
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 4px;
+  padding-top: 5%;
+  /* box-shadow: 0px 0px 1px rgba(0,0,0,0.6); */
+  margin:auto;
+}
+
+
+.txtinput {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  background-color: #fff;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;;
+}
+.txtinput:focus {
+  outline: none !important;
+  border:1px solid #ccc;
+  box-shadow: 0 0 10px #eee;
+  }
+.loginbutton {
+  background-color: rgba(80, 90, 194, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+  width: 70%;
+}
+
+.loginbutton:hover {
+  background-color: rgba(63, 71, 155, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+}
+
+
+.userinfo{
+  width: 100%;
+  background-color: #fff;
+  height: 100vh;
+  padding: 20px;
+}
+.userinfo .usernametitle{
+  font-size: 30px;
+  color: rgba(80, 90, 194, 0.736);
+  
+}
+
+.clear{
+  clear: both;
+}
+.callbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(194, 198, 241, 0.736);
+  border: 0px solid red;
+  width: 80%;
+ border-radius: 4px;
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px 30px;
+  border: 1px solid rgba(167, 171, 215, 0.736);
+ 
+}
+
+.callbtncss{
+  background-color: rgba(63, 71, 155, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+}
+
+.callbtncss{
+  background-color: rgba(80, 90, 194, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+  width: 70%;
+}
+
+.callbtncss:hover {
+  background-color: rgba(63, 71, 155, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+}
+
+
+.callingbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color: rgba(194, 198, 241, 0.736);*/
+  border: 0px solid red;
+  width: 80%;
+ border-radius: 4px;
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px 30px;
+  /*border: 1px solid rgba(167, 171, 215, 0.736);*/
+}
+
+.incomingWrapper {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(155, 160, 224, 0.736);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 15px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(144, 149, 210, 0.736);
+}
+
+
+.answerbtncc{
+  background-color: rgba(80, 90, 194, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+  width: 100%;
+}
+
+.answerbtncc:hover{
+  background-color: rgba(63, 71, 155, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+}
+
+h3{
+  margin-top:10px;
+}
+
+.btncss{
+  background-color: rgba(80, 90, 194, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+ padding: 0.5rem 1rem;
+ margin-right: 10px;
+}
+.btncss:hover{
+  background-color: rgba(63, 71, 155, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+}
+
+.accept{
+  background-color: rgba(52, 156, 97, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(46, 140, 87, 0.736);
+ padding: 0.5rem 1rem;
+ margin-right: 10px;
+}
+.accept:hover{
+  background-color: rgba(46, 137, 85, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(46, 140, 87, 0.736);
+ padding: 0.5rem 1rem;
+}
+
+.cancel{
+  background-color: rgba(234, 75, 39, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(221, 71, 38, 0.736);
+ padding: 0.5rem 1rem;
+}
+.cancel:hover{
+  background-color: rgba(200, 65, 35, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(183, 59, 31, 0.736);
+ padding: 0.5rem 1rem;
+}
+
+
+.btncss{
+  background-color: rgba(80, 90, 194, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+ padding: 0.5rem 1rem;
+ margin-right: 10px;
+}
+.btncss:hover{
+  background-color: rgba(63, 71, 155, 0.736);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 40px;
+  letter-spacing: normal;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;;
+  border: 1px solid rgba(80, 90, 194, 0.736);
+}
